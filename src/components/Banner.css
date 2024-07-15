@@ -1,0 +1,41 @@
+/* src/components/Banner.css */
+
+.banner {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.banner h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.banner-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.banner-image {
+    position: relative;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.banner-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}

@@ -1,0 +1,29 @@
+import React from 'react';
+
+const VideoCard = ({ video, handleEdit, handleDelete }) => {
+    // Función para manejar la acción de editar
+    const handleEditClick = () => {
+        handleEdit(video.id);
+    };
+
+    // Función para manejar la acción de eliminar
+    const handleDeleteClick = () => {
+        handleDelete(video.id);
+    };
+
+    return (
+        <div className="video-card">
+            <img src={video.imageUrl} alt={video.title} />
+            <div className="video-info">
+                <h3>{video.title}</h3>z
+                <p>{video.category}</p>
+                <div className="button-container">
+                    <button onClick={handleEditClick}>Editar</button>
+                    <button onClick={handleDeleteClick}>Borrar</button>
+                </div>
+            </div>
+        </div>
+    );
+}
+
+export default VideoCard;
