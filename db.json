@@ -1,0 +1,38 @@
+{
+    "videos": [
+      {
+        "id": 1,
+        "title": "British GP 2023",
+        "category": "F1",
+        "imageUrl": "http://example.com/image1.jpg",
+        "videoUrl": "https://youtu.be/yPvoKz6tyJs?si=e7AIgrl4-rBnl0Ul",
+        "description": "Race Highlights | 2024 British Grand Prix"
+      },
+      {
+        "id": 2,
+        "title": "Austrian GP 2024",
+        "category": "F1",
+        "imageUrl": "http://example.com/image2.jpg",
+        "videoUrl": "https://youtu.be/b0yb1zH2m7c?si=jyCQmFN45Z_QIaa4",
+        "description": "Race Highlights | 2024 Austrian Grand Prix"
+      },
+      {
+        "id": 3,
+        "title": "Spanish GP 2024",
+        "category": "F1",
+        "imageUrl": "http://example.com/image1.jpg",
+        "videoUrl": "https://youtu.be/ojUQLuSqV4s?si=_8Nh48uQbr-u_izP",
+        "description": "Race Highlights | 2024 Spanish Grand Prix"
+      },
+      {
+        "id": 4,
+        "title": "Canadian GP 2024",
+        "category": "F1",
+        "imageUrl": "http://example.com/image2.jpg",
+        "videoUrl": "https://youtu.be/dLw1ao4-Akk?si=NvOu1KULpuRxya9Q",
+        "description": "Race Highlights | 2024 Austrian Grand Prix"
+      }
+    
+    ]
+  }
+  
